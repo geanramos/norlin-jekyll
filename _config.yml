@@ -5,7 +5,7 @@ logo: https://i1.wp.com/kagi.com/smallweb/static/doggo_px.png # You can add own 
 description: O lugar onde as histórias ganham vida!Junte-se a nós para romances arrebatadores, reflexões profundas e muitos mais. 😊
 baseurl: "" # The subpath of your site, e.g. /blog
 image: "https://geanramos.com.br/img/capa.jpg"
-url: "https://cdn.geanramos.42web.io" # The base hostname & protocol for your site, e.g. http://example.com
+url: "https://s1.geanramos.com.br" # The base hostname & protocol for your site, e.g. http://example.com
 cdnimg: "" # O nome do host e protocolo base da sua imagem, por exemplo. http://i1.wp.com/exemplo.com
 
 
