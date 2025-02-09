@@ -1,62 +1,65 @@
 #-------------------------------
 # General Site Settings
-title: linuxmobile
-logo: # You can add own logo. For example '/images/logo.png'.
-description: Un sitio para aprender sobre tecnologías
+title: Gean Ramos
+logo: https://i1.wp.com/kagi.com/smallweb/static/doggo_px.png # You can add own logo. For example '/images/logo.png'.
+description: O lugar onde as histórias ganham vida!Junte-se a nós para romances arrebatadores, reflexões profundas e muitos mais. 😊
 baseurl: "" # The subpath of your site, e.g. /blog
-url: "https://gean002.netlify.app/" # The base hostname & protocol for your site, e.g. http://example.com
+image: "https://geanramos.com.br/img/capa.jpg"
+url: "https://cdn.geanramos.42web.io" # The base hostname & protocol for your site, e.g. http://example.com
+cdnimg: "" # O nome do host e protocolo base da sua imagem, por exemplo. http://i1.wp.com/exemplo.com
 
 
 #-------------------------------
 # Author Settings
 author:
-  name: linuxmobile
-  avatar: 'https://secure.gravatar.com/avatar/713f0634508cc8fd29f98ff6d84d86af?s=150'
+  name: Gean Ramos
+  avatar: 'https://2.gravatar.com/avatar/bdd3a9aa9878447e26ba6191f221487233264cf3915c0823af839cc5af5c9439?size=100'
 
 
 #-------------------------------
 # Hero Settings
 hero:
-  title: LINUXMOBILE
-  description: Un blog para aprender, juntos, sobre tecnología
-  image: '/images/pages/2.webp'
+  title: Gean Ramos
+  description: Pensamentos, histórias e ideias.
+  image: 'https://i0.wp.com/newsco.ai/wp-content/uploads/2024/02/imagens-que-induzem-ansiedade-com-sentimentos-de-angustia-1-1-1.jpg?fit=1920%2C1280&ssl=1'
 
 
 #-------------------------------
-# Contact Settings
+# Configurações de contato
 contact:
-  email: bdiez19@gmail.com # Add your email for contact form
-  description: ¡Me encantaría recibir un mensaje de parte tuya/o! Qué te parece si me escribes y me das tus comentarios, o me haces las preguntas que quieras! EStoy a tu disposición. # Add a description of your form
+  email: geanramos@hotmail.com.br # Adicione seu e-mail para formulário de contato
+  description: Norlin vem com um formulário de contato integrado, que você pode usar com o serviço Formspree para lidar com até 50 envios por mês gratuitamente. Você também pode mudar facilmente para outro serviço de formulário de contato, se desejar. # Add a description of your form
 
 # NOTE
-# Norlin theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
+# O tema Norlin vem com um formulário de contato integrado. Você pode usar este formulário com o serviço Formspree (https://formspree.io/) e obter até 50 envios gratuitamente. Além disso, você pode mudar facilmente para outro serviço, se desejar.
 
 
 #-------------------------------
-# Footer section
-# Example of adding a new link to the footer - {icon: "ion-logo-github", link: "https://github.com"}
-# Other icons can be found at https://ionicons.com/v4/
+# Seção de rodapé
+# Exemplo de adição de um novo link ao rodapé - {icon: "ion-logo-github", link: "https://github.com"}
+# Outros ícones podem ser encontrados em https://ionicons.com/v4/
 social:
-- {icon: "ion-logo-twitter", link: "https://twitter.com/linuxmobileok"}
-- {icon: "ion-logo-facebook", link: "https://www.facebook.com/braianagustin.diez"}
-- {icon: "ion-logo-github", link: "https://github.com/linuxmobile"}
-- {icon: "ion-logo-instagram", link: "https://www.instagram.com/elblogdebraian"}
+- {icon: "fa-twitter", link: "https://twitter.com/geanramos"}
+- {icon: "fa-instagram", link: "https://instagr.am/geanme_"}
+- {icon: "fa-bluesky", link: "https://bsky.app/profile/geanramos.bsky.social"}
+- {icon: "fa-whatsapp", link: "https://whatsapp.com/channel/0029VaiqYRbC1Fu4UkeAAk0B"}
+- {icon: "fa-facebook", link: "#top"}
 
 
 #-------------------------------
 # Comment Section (Disqus)
-disqus-identifier: n00b2h4ck3r # Add your shortname for Disqus Comment. For example anvodstudio-demo
+disqus-identifier: geanramos # Add your shortname for Disqus Comment. For example anvodstudio-demo
 
 
 #-------------------------------
 # Google Analytics
-google-analytics: UA-176116253-1 # Add your identifier. For example UA-99631805-1.
+google-analytics: # Add your identifier. For example UA-99631805-1.
 
 
 #-------------------------------
 # Newsletter
-mailchimp: enable # To enable the mailchimp form, use the value 'enable'. To disable the form, leave the field blank.
-mailchimp-identifier: https://app.us20.list-manage.com/subscribe/post?u65e25d0a60609c8cbde82c607;id=4eaddf4109 # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+mailchimp: disable # Para habilitar o formulário mailchimp, use o valor 'enable'. Para desabilitar o formulário, deixe o campo em branco.
+mailchimp-identifier: # Adicione seu identificador de formulário MailChimp. Por exemplo - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
 
 
 #-------------------------------
@@ -67,6 +70,12 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll/tagging
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-tagging-related_posts
+
+kramdown:
+  parse_block_html: true
 
 paginate: 8
 paginate_path: "/page/:num"
