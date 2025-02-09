@@ -3,7 +3,9 @@ title: "Metadados: O Superpoder Oculto do Seu Site"
 date: 2025-01-30 05:01:00 -03:00
 description: "Descubra como os metadados podem turbinar seu site e encantar usuários."
 categories: code
-tags: [web developer]
+tags:
+- web
+- developer
 image: "https://bairesdev.mo.cloudinary.net/blog/2023/09/How-Many-Web-Developers-in-the-World-1.jpg?tx=w_650,q_auto"
 ---
 ## 🖥️ Desvendando o Mistério dos Metadados: Por que Eles Importam
