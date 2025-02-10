@@ -77,7 +77,6 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-sitemap
   jekyll-tagging
-  jekyll-seo_meta
 
 BUNDLED WITH
    2.2.32
